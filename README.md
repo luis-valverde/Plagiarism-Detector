@@ -12,7 +12,12 @@
 
 This repository contains all my work for the Udacity's Machine Learning Nanodegree Program.
 
-TODO: Complete this section
+The goal in this project was to build a plagiarism detector to clasify text files as either plagiarized or not depending
+on how similar it is to a provided source text.
+
+To accomplish this, I defined features for comparing the similarity of an answer text and a source text, and selected
+features by analyzing the correlations between them. Then, created a binary classification model, trained and deployed
+it using Amazon SageMaker. Finally, I calculated the accuracy of the final model (obtained 0.960 accuracy).
 
 ## Project Overview
 
@@ -66,11 +71,34 @@ more included.
 
 This repository contains three files needed to solve the project.
 
-TODO: Complete this section
+1. **1_Data_Exploration.ipynb:** Explore the existing data features and the data distribution.
+2. **2_Plagiarism_Feature_Engineering.ipynb:** Clean and pre-process the text data.
+3. **3_Training_a_Model.ipynb:** Train and test your model and deploy it using SageMaker.
+4. **helpers.py:** Utilities functions to use in the project.
+5. **problem_unittests.py:** Unit tests to verify correct functionality of the algorithms created.
+6. **source_sklearn:** Hold starting code for a custom Scikit-learn model.
+7. **source_pytorch:** Hold starting code for a custom PyTorch model.
 
 ## How to Run
 
 In the Terminal or Command Prompt, navigate to the folder on your machine where you've put the project files, and then
 use the command:
 
-TODO: Complete this section
+```bash
+jupyter notebook 2_Plagiarism_Feature_Engineering.ipynb
+```
+
+ to open up a browser window or tab to work with your notebook.
+ Alternatively, you can use the command:
+
+ ```bash
+jupyter notebook
+```
+
+or
+
+```bash
+ipython notebook
+```
+
+and navigate to the notebook file (2_Plagiarism_Feature_Engineering.ipynb) in the browser window that opens.
