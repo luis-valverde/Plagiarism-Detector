@@ -69,7 +69,7 @@ more included.
 
 ## Neccessary Files
 
-This repository contains three files needed to solve the project.
+This repository contains the files needed to solve the project.
 
 1. **1_Data_Exploration.ipynb:** Explore the existing data features and the data distribution.
 2. **2_Plagiarism_Feature_Engineering.ipynb:** Clean and pre-process the text data.
